@@ -1,7 +1,11 @@
 def DisplayEvenNumber():
-    for i in range(1, 21):
-        if i % 2 == 0:
-            print(i)
+    count = 0
+    number = 2
+
+    while count < 10:
+        print(number)
+        count += 1
+        number += 2
 
 def main():
     DisplayEvenNumber()
